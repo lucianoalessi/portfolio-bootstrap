@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Luciano Alessi">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Luciano Alessi | Back-End Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificaciones">Certificaciones y formacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/imagenes-desarrolladores/developer-Luciano.jpeg" alt="Foto de Luciano Alessi">
+        <h1>Hola, soy Luciano Alessi</h1>
+        <h2>Back-End developer and Industrial Engineer.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Luciano Alessi</h2>
+        <p class="seccion-texto">
+          Soy un Desarrollador <strong>Back-End</strong> con experiencia en proyectos personales y habilidades en desarrollo <strong>Front-End</strong>, adquiridas a travez de certificaciones y aprendizaje autodidacta.
+          <br>
+          Ademas, mi formación en desarrollo se complementa con un título en <strong>Ingeniería Industrial</strong> de la Universidad Tecnológica Nacional de Argentina y un título de <strong>Técnico en Aviónica</strong> de la Escuela Técnica Nº7 “Taller Regional Quilmes” (IMPA), lugar donde di mis primeros pasos en programación a una temprana edad.
+          <br>
+          Esta combinación de formación académica y experiencia práctica me proporciona una base sólida para afrontar cualquier desafío en el campo del desarrollo de software y estoy emocionado de llevar estas habilidades a mi próximo rol. ¡Espero que disfrutes revisando mi portafolio!
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-6"">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              A lo largo de seis meses he estado desarrollando proyectos de Back-end, enfocandome principalmente en un proyecto de E-Commerce que realicé durante el curso de "Programación Backend" brindado Coder House. 
+              Logre certificarme y en el transcurso he adquirido experiencia práctica en las siguientes tecnologias:
+            </p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Node.js</span>
+                <span class="badge text-bg-primary">Express.js</span>
+                <span class="badge text-bg-primary">Socket.IO</span>
+                <span class="badge text-bg-primary">MongoDB</span>
+                <span class="badge text-bg-primary">Mongoose</span>
+                <span class="badge text-bg-primary">Bcrypt</span>
+                <span class="badge text-bg-primary">cookie-parser</span>
+                <span class="badge text-bg-primary">Passport.js</span>
+                <span class="badge text-bg-primary">GitHub OAuth</span>
+                <span class="badge text-bg-primary">JWT</span>
+                <span class="badge text-bg-primary">Nodemailer</span>
+                <span class="badge text-bg-primary">Handlebars</span>
+                <span class="badge text-bg-primary">Winston</span>
+                <span class="badge text-bg-primary">Dotenv</span>
+                <span class="badge text-bg-primary">Swagger</span>
+                <span class="badge text-bg-primary">Nodemon</span>
+                <span class="badge text-bg-primary">Supertest</span>
+                <span class="badge text-bg-primary">Faker</span>
+                <span class="badge text-bg-primary">Chai</span>
+                <span class="badge text-bg-primary">Mocha</span>
+                <span class="badge text-bg-primary">Multer</span>
+              </div>
+
+            <p>
+              Anteriormente, realice proyectos personales de Front-End donde obtuve habilidades a travez de certificaciones en free code camp y reforce conocimientos en las siguientes tecnologias:
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+              <span class="badge text-bg-primary">React.js</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Background</p>
+            <p>
+              En el transcurso de mi carrera como ingeniero industrial, he trabajado como sales engineer en Tecnologia Integral S.A, realizando planes de venta y comercializando equipos industriales segun las necesidades de la cartera de clientes.
+              Luego trabaje como Analista de costos y procesos en Indave S.A, una compañia que produce valvula esfericas para la industrial de Oil & Gas,Analizando y calculado costos directos e indirectos de la produccion del producto final.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Industrial Engineer</span>
+              <span class="badge text-bg-primary">Sales Engineer</span>
+              <span class="badge text-bg-primary">Cost & Process Analyst</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            E-Commerce (Back-End)
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/lucianoalessi/backEnd-ecommerce" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://la-store.up.railway.app/home" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            Drum machine (React.js)
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/lucianoalessi/drum-machine" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://lucianoalessi.github.io/drum-machine" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            Pomodoro clock (React.js)
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/lucianoalessi/fcc-pomodoro-clock" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://lucianoalessi.github.io/fcc-pomodoro-clock/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/lucianoalessi" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Certificaciones -->
+    <section id="certificaciones" class="certificaciones seccion-clara">
+      <div class="container">
+        <h2 class="seccion-titulo text-center">Certificaciones y Formación</h2>
+        <h3 class="seccion-descripcion text-center">Estas son algunas de mis certificaciones y formaciones...</h3>
+        
+        <div class="list-group">
+          <!-- Certificación 1 -->
+          <div class="list-group-item">
+            <div id="certificacion" class="row align-items-center">
+              <div class="col-4">
+                <a href="https://www.coderhouse.com/certificados/65a57e8abfa111a68da098fd?lang=es" target="_blank">
+                  <img src="imagenes/certifications/backend-certification.png" alt="Imagen del certificado" class="img-fluid">
+                </a>
+              </div>
+              <div class="col">
+                <h4>Programacion Backend.</h4>
+                <p>Certificado por Coder House.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificación 2 -->
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <a href="https://www.freecodecamp.org/certification/LucianoAlessi9/front-end-development-libraries" target="_blank">
+                  <img src="imagenes/certifications/frontend-certification.png" alt="Imagen del certificado" class="img-fluid">
+                </a>
+              </div>
+              <div class="col">
+                <h4>Front End development libraries.</h4>
+                <p>Certificado por Free Code Camp.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificación 3 -->
+          <div class="list-group-item">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <a href="https://www.freecodecamp.org/certification/LucianoAlessi9/javascript-algorithms-and-data-structures" target="_blank">
+                  <img src="imagenes/certifications/JS-certification.png" alt="Imagen del certificado" class="img-fluid">
+                </a>
+              </div>
+              <div class="col">
+                <h4>JavaScript algorithms and data structures.</h4>
+                <p>Certificado por Free Code Camp.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web o trabajar juntos.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:lucianoalessi9@hotmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <!-- <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a> -->
+        <a href="https://github.com/lucianoalessi" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lucianoalessi/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <!-- <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a> -->
+        <a href="mailto:lucianoalessi9@hotmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Luciano Alessi (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
